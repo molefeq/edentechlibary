@@ -247,65 +247,65 @@
     </Items>
   </Quotation>-->
   <Quotation>
-    <FileName>Quotation_Mhlonipheni_1.pdf</FileName>
-    <Description>Quotation - Mhlonipheni Shezi</Description>
-    <QouteDate>15/08/2016</QouteDate>
+    <FileName>Quotation_Charlse.pdf</FileName>
+    <Description>Quotation - Charlse Ngwenya</Description>
+    <QouteDate>09/07/2018</QouteDate>
     <Items>
       <Item>
-        <Code>BD132</Code>
-        <Description>PIR Outdoor with Dual PIR and MW Detector</Description>
-        <Quantity>2 EA</Quantity>
-        <Price>1295.00 EA</Price>
-        <TotalExcl>2590.00</TotalExcl>
-      </Item>
-      <Item>
-        <Code>CB24</Code>
-        <Description>Comms - 6 Core White / 100m</Description>
+        <Code>CB10-12</Code>
+        <Description>RG59 + Power - Black / 500m</Description>
         <Quantity>1 RL</Quantity>
-        <Price>290.00 RL</Price>
-        <TotalExcl>290.00</TotalExcl>
-      </Item>
-      <!--<Item>
-        <Code>CD07-1</Code>
-        <Description>DVR Mini 4 Ch HD-TVI/AHD/Analog 1 Ch Audio 1280×720P 25fps 1U 1TBHDD DS-7204HVI-SV</Description>
-        <Quantity>1 EA</Quantity>
-        <Price>3437.00 EA</Price>
-        <TotalExcl>3437.00</TotalExcl>
+        <Price>3800.00 RL</Price>
+        <TotalExcl>3800.00</TotalExcl>
       </Item>
       <Item>
-        <Code>CC276-5</Code>
-        <Description>HIK Bullet Camera 1/3" HD-TVI 1MP 720p IR 20m 2.8mm DS-2CE16C0T-IR</Description>
-        <Quantity>3 EA</Quantity>
-        <Price>699.00 EA</Price>
-        <TotalExcl>2097.00</TotalExcl>
+        <Code>CC376-5</Code>
+        <Description>HIK HD-TVI Bullet 4-1 720P IR20m 2.8mm DS-2CE16C0T-IRF(2.8mm)</Description>
+        <Quantity>10 EA</Quantity>
+        <Price>485.00 EA</Price>
+        <TotalExcl>4850.00</TotalExcl>
       </Item>
-      <Item>
-        <Code>CB10-9</Code>
-        <Description>RG59 + Power - Black / 100m</Description>
-        <Quantity>1 RL</Quantity>
-        <Price>885.00 RL</Price>
-        <TotalExcl>885.00</TotalExcl>
-      </Item>-->
-      <Item>
+     <Item>
         <Code>CN01</Code>
         <Description>BNC - Crimp Plug 6mm Male</Description>
-        <Quantity>10 EA</Quantity>
-        <Price>15.80 EA</Price>
-        <TotalExcl>158.00</TotalExcl>
+        <Quantity>20 EA</Quantity>
+        <Price>8.00 EA</Price>
+        <TotalExcl>160.00</TotalExcl>
       </Item>
       <Item>
         <Code>CN04-3</Code>
         <Description>DC Plug - Lead Incl Connector</Description>
-        <Quantity>4 EA</Quantity>
+        <Quantity>10 EA</Quantity>
         <Price>19.90 EA</Price>
-        <TotalExcl>79.60</TotalExcl>
+        <TotalExcl>199.00</TotalExcl>
       </Item>
       <Item>
-        <Code>CN04</Code>
-        <Description>BNC - Black boots</Description>
-        <Quantity>10 EA</Quantity>
-        <Price>3.50 EA</Price>
-        <TotalExcl>35.00</TotalExcl>
+        <Code>PS64-2</Code>
+        <Description>PSU - CCTV 9Way 10 Amp Distribution Box</Description>
+        <Quantity>2 EA</Quantity>
+        <Price>1227.00 EA</Price>
+        <TotalExcl>2454.00</TotalExcl>
+      </Item>         
+      <Item>
+        <Code>SP162-3</Code>
+        <Description>D5 Evo Gate Motor Kit incl Rack And Centurion New Theft Resistant Cage Comprising :-</Description>
+        <Quantity>1 EA</Quantity>
+        <Price>6939.00 EA</Price>
+        <TotalExcl>6939.00</TotalExcl>
+      </Item>     
+      <Item>
+        <Code>KT012</Code>
+        <Description>D5V5 EVO 12V (500Kg) Incl 2 x 4 Button Nova</Description>
+        <Quantity>1 EA</Quantity>
+        <Price></Price>
+        <TotalExcl></TotalExcl>
+      </Item>
+      <Item>
+        <Code>RGA04</Code>
+        <Description>Steel Rack - 12mm x 2m</Description>
+        <Quantity>2 EA</Quantity>
+        <Price></Price>
+        <TotalExcl></TotalExcl>
       </Item>
       <!--<Item>
         <Code>PS64-1</Code>
@@ -315,25 +315,32 @@
         <TotalExcl>999.00</TotalExcl>
       </Item>-->
       <Item>
-        <Code>FBS</Code>
-        <Description>Flat Bar Steel</Description>
-        <Quantity>2 EA</Quantity>
-        <Price>180.00 EA</Price>
-        <TotalExcl>360.00</TotalExcl>
+        <Code>GA40-1</Code>
+        <Description>RACK - Steel Angle Bracket each</Description>
+        <Quantity>8 EA</Quantity>
+        <Price></Price>
+        <TotalExcl></TotalExcl>
       </Item>
       <Item>
-        <Code>SR</Code>
-        <Description>Steper Relay</Description>
+        <Code>BA13-2</Code>
+        <Description>BATT - 12V 7AH Securi-Prod SLA F1 4.8mm Terminal Box Qty now 5</Description>
         <Quantity>1 EA</Quantity>
-        <Price>150.00 EA</Price>
-        <TotalExcl>150.00</TotalExcl>
+        <Price></Price>
+        <TotalExcl></TotalExcl>
+      </Item>
+      <Item>
+        <Code>GA26-13</Code>
+        <Description>CENTURION D5 Theft Resistant Cage V6 Incl Padlock</Description>
+        <Quantity>1 EA</Quantity>
+        <Price></Price>
+        <TotalExcl></TotalExcl>
       </Item>
       <Item>
         <Code>LBR</Code>
         <Description>Labour</Description>
         <Quantity></Quantity>
         <Price></Price>
-        <TotalExcl>3000.00</TotalExcl>
+        <TotalExcl>7800.00</TotalExcl>
       </Item>
     </Items>
   </Quotation>

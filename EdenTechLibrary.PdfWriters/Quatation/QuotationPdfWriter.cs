@@ -113,7 +113,7 @@ namespace EdenTechLibrary.PdfWriters.Quatation
 
         private void WriteCompanyHeading(PdfPTable companyHeadingTable)
         {
-            AddTableCell(companyHeadingTable, "EndTech Security (PTY) LTD".ToUpper(), 18, Font.BOLD, Rectangle.NO_BORDER, null, 10f);
+            AddTableCell(companyHeadingTable, "ADENTEC SECURITY (PTY) LTD".ToUpper(), 18, Font.BOLD, Rectangle.NO_BORDER, null, 10f);
             AddTableCell(companyHeadingTable, "38 Sonwaba Complex, Oklahoma Street", 11, Font.NORMAL, Rectangle.NO_BORDER);
             AddTableCell(companyHeadingTable, "Cosmo City, Randburg", 11, Font.NORMAL, Rectangle.NO_BORDER);
             AddTableCell(companyHeadingTable, "2188, Gauteng, South Africa", 11, Font.NORMAL, Rectangle.NO_BORDER);
@@ -142,10 +142,10 @@ namespace EdenTechLibrary.PdfWriters.Quatation
             pdfPCell.PaddingTop = 20f;
             pdfPCell.Border = Rectangle.NO_BORDER;
 
-            pdfPCell.AddElement(WriteParagraph("All stock remains the property of ADENTEC (PTY) Ltd untill final balance is paid.", 11, Font.BOLD, Rectangle.ALIGN_CENTER));
+            pdfPCell.AddElement(WriteParagraph("All stock remains the property of ADENTEC SECURITY (PTY) LTD until final balance is paid.", 11, Font.BOLD, Rectangle.ALIGN_CENTER));
             pdfPCell.AddElement(WriteParagraph("ALL QUOTATIONS ARE VALID FOR 14 DAYS ONLY.", 11, Font.NORMAL, Rectangle.ALIGN_CENTER));
             pdfPCell.AddElement(WriteParagraph("TERMS : STRICTLY C.O.D.", 11, Font.NORMAL, Rectangle.ALIGN_CENTER));
-            pdfPCell.AddElement(WriteParagraph("DEPOSITS PAYABLE BEFORE INSTALLATION.BALANCE DUE ON COMPLETION.", 11, Font.BOLD, Rectangle.ALIGN_CENTER));
+            pdfPCell.AddElement(WriteParagraph("DEPOSITS PAYABLE BEFORE INSTALLATION. BALANCE DUE ON COMPLETION.", 11, Font.BOLD, Rectangle.ALIGN_CENTER));
             pdfPCell.AddElement(WriteParagraph("Should you require any further assistance do not hesitate to contact me.", 11, Font.NORMAL, Rectangle.ALIGN_CENTER));
             pdfPCell.AddElement(WriteParagraph("Thank You For Your Business!", 11, Font.BOLD, Rectangle.ALIGN_CENTER));
 
@@ -255,12 +255,12 @@ namespace EdenTechLibrary.PdfWriters.Quatation
             PdfPTable bankingDetailsTable = new PdfPTable(1);
 
             AddTableCell(bankingDetailsTable, "Banking Details".ToUpper(), 11, Font.BOLD, Rectangle.NO_BORDER);
-            AddTableCell(bankingDetailsTable, "Bank: Capitec", 10, Font.BOLD, Rectangle.NO_BORDER);
-            AddTableCell(bankingDetailsTable, "Account Holder: CHARLES NGWENYA", 10, Font.BOLD, Rectangle.NO_BORDER);
-            AddTableCell(bankingDetailsTable, "Account No: 1397387856", 10, Font.BOLD, Rectangle.NO_BORDER);
-            AddTableCell(bankingDetailsTable, "Account Type: Savings Account", 10, Font.BOLD, Rectangle.NO_BORDER);
-            AddTableCell(bankingDetailsTable, "Branch Name: Cosmo City", 10, Font.BOLD, Rectangle.NO_BORDER);
-            AddTableCell(bankingDetailsTable, "Branch Code: 470010", 10, Font.BOLD, Rectangle.NO_BORDER);
+            AddTableCell(bankingDetailsTable, "Bank: FNB", 10, Font.BOLD, Rectangle.NO_BORDER);
+            AddTableCell(bankingDetailsTable, "Account Holder: ADENTEC SECURITY PTY LTD", 10, Font.BOLD, Rectangle.NO_BORDER);
+            AddTableCell(bankingDetailsTable, "Account No: 62766243142", 10, Font.BOLD, Rectangle.NO_BORDER);
+            AddTableCell(bankingDetailsTable, "Account Type: Cheque", 10, Font.BOLD, Rectangle.NO_BORDER);
+            AddTableCell(bankingDetailsTable, "Branch Name: NORTHGATE", 10, Font.BOLD, Rectangle.NO_BORDER);
+            AddTableCell(bankingDetailsTable, "Branch Code: 256755", 10, Font.BOLD, Rectangle.NO_BORDER);
 
             PdfPTable containerTable = new PdfPTable(1);
             PdfPCell containerTableCell = new PdfPCell(bankingDetailsTable);
